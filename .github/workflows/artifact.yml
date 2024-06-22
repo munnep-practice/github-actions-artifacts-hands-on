@@ -32,5 +32,5 @@ jobs:
         path: ./artifacts/hello.txt
  
     - name: output file
-      uses: cat ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
     
